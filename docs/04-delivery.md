@@ -62,9 +62,9 @@ ARM64 노드에서 실행할 test image와 서비스 빌더의 툴체인을 맞�
 
 Trivy의 기본 게이트는 CRITICAL을 대상으로 하고 unfixed를 제외합니다. 다른 심각도와 제외된 취약점은 이 게이트의 실패 판정 대상이 아닙니다. 보고서 파일이 없으면 스캔 자체의 실패로 처리합니다.
 
-2026-09-23 별도 `svc-batch:2dc76ceb…` 보고서에는 Debian 항목의 취약점이 없고 JAR 의존성에서 CRITICAL 4건이 보입니다. 이는 [9/26 batch #23의 게이트 포함 0건](09-evidence/E02-2026-09-30-onboarding-deployment.md)과 다른 이미지·실행입니다. 이 화면에는 해당 Jenkins 빌드의 최종 결과가 포함되어 있지 않습니다.
+2026-09-23 UTC의 `svc-batch:2dc76ceb…` 검사 보고서에서 Debian 항목의 보고된 취약점은 0건이고, JAR 의존성의 CRITICAL은 **5건(Netty 1건·Tomcat 3건·Bouncy Castle 1건)**입니다. [9/26 batch #23의 게이트 포함 0건](09-evidence/E02-2026-09-30-onboarding-deployment.md)은 다른 이미지의 검사 결과입니다.
 
-![2026-09-23 별도 svc-batch 이미지의 Trivy JAR CRITICAL 4건 보고서](../images/ci/trivy-critical-2026-09-23.png)
+![2026-09-23 svc-batch 이미지의 Trivy JAR CRITICAL 5건 보고서](../images/ci/trivy-critical-2026-09-23.png)
 
 서명 단계는 digest를 사용하지만, GitOps 배포 선언은 현재 SHA **태그**입니다. [Kyverno 정책][policy]은 `verify-images=true` namespace의 지정 이미지 패턴에 Enforce를 적용하며 `mutateDigest`와 `verifyDigest`는 false입니다. 서명 검증은 구성되어 있고, 배포 참조를 digest로 고정하는 작업은 남아 있습니다.
 
