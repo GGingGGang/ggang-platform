@@ -1,0 +1,25 @@
+{
+  "observed_at": "2026-09-30T09:27:21.238763+09:00",
+  "checks": [
+    {
+      "url": "https://www.ggang.cloud/readyz",
+      "method": "GET",
+      "dns_address_count": 1,
+      "tls_version": "TLSv1.3",
+      "certificate_not_after": "Nov  5 06:34:24 2026 GMT",
+      "hostname_and_chain_verified": true,
+      "http_status": 200,
+      "response_size_bytes": 18
+    },
+    {
+      "url": "https://api.ggang.cloud/v1/core/readyz",
+      "method": "GET",
+      "dns_address_count": 1,
+      "tls_version": "TLSv1.3",
+      "certificate_not_after": "Nov  5 06:34:24 2026 GMT",
+      "hostname_and_chain_verified": true,
+      "http_status": 200,
+      "response_size_bytes": 18
+    }
+  ]
+}

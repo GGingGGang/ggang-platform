@@ -1,0 +1,259 @@
+{
+  "observed_at": "2026-09-30T09:25:16.751284+09:00",
+  "routes": [
+    {
+      "service": "auth",
+      "desired_spec": {
+        "parentRefs": [
+          {
+            "name": "public-gateway",
+            "namespace": "istio-system",
+            "sectionName": "https-wildcard"
+          }
+        ],
+        "hostnames": [
+          "api.ggang.cloud"
+        ],
+        "rules": [
+          {
+            "matches": [
+              {
+                "path": {
+                  "type": "PathPrefix",
+                  "value": "/v1/auth"
+                }
+              }
+            ],
+            "filters": [
+              {
+                "type": "URLRewrite",
+                "urlRewrite": {
+                  "path": {
+                    "type": "ReplacePrefixMatch",
+                    "replacePrefixMatch": "/"
+                  }
+                }
+              }
+            ],
+            "backendRefs": [
+              {
+                "name": "auth",
+                "port": 3000
+              }
+            ]
+          }
+        ]
+      },
+      "live_spec": {
+        "hostnames": [
+          "api.ggang.cloud"
+        ],
+        "parentRefs": [
+          {
+            "group": "gateway.networking.k8s.io",
+            "kind": "Gateway",
+            "name": "public-gateway",
+            "namespace": "istio-system",
+            "sectionName": "https-wildcard"
+          }
+        ],
+        "rules": [
+          {
+            "backendRefs": [
+              {
+                "group": "",
+                "kind": "Service",
+                "name": "auth",
+                "port": 3000,
+                "weight": 1
+              }
+            ],
+            "filters": [
+              {
+                "type": "URLRewrite",
+                "urlRewrite": {
+                  "path": {
+                    "replacePrefixMatch": "/",
+                    "type": "ReplacePrefixMatch"
+                  }
+                }
+              }
+            ],
+            "matches": [
+              {
+                "path": {
+                  "type": "PathPrefix",
+                  "value": "/v1/auth"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "exact_equal": false,
+      "equal_after_filling_observed_reference_fields": true
+    },
+    {
+      "service": "core",
+      "desired_spec": {
+        "parentRefs": [
+          {
+            "name": "public-gateway",
+            "namespace": "istio-system",
+            "sectionName": "https-wildcard"
+          }
+        ],
+        "hostnames": [
+          "api.ggang.cloud"
+        ],
+        "rules": [
+          {
+            "matches": [
+              {
+                "path": {
+                  "type": "PathPrefix",
+                  "value": "/v1/core"
+                }
+              }
+            ],
+            "filters": [
+              {
+                "type": "URLRewrite",
+                "urlRewrite": {
+                  "path": {
+                    "type": "ReplacePrefixMatch",
+                    "replacePrefixMatch": "/"
+                  }
+                }
+              }
+            ],
+            "backendRefs": [
+              {
+                "name": "core",
+                "port": 8080
+              }
+            ]
+          }
+        ]
+      },
+      "live_spec": {
+        "hostnames": [
+          "api.ggang.cloud"
+        ],
+        "parentRefs": [
+          {
+            "group": "gateway.networking.k8s.io",
+            "kind": "Gateway",
+            "name": "public-gateway",
+            "namespace": "istio-system",
+            "sectionName": "https-wildcard"
+          }
+        ],
+        "rules": [
+          {
+            "backendRefs": [
+              {
+                "group": "",
+                "kind": "Service",
+                "name": "core",
+                "port": 8080,
+                "weight": 1
+              }
+            ],
+            "filters": [
+              {
+                "type": "URLRewrite",
+                "urlRewrite": {
+                  "path": {
+                    "replacePrefixMatch": "/",
+                    "type": "ReplacePrefixMatch"
+                  }
+                }
+              }
+            ],
+            "matches": [
+              {
+                "path": {
+                  "type": "PathPrefix",
+                  "value": "/v1/core"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "exact_equal": false,
+      "equal_after_filling_observed_reference_fields": true
+    },
+    {
+      "service": "web",
+      "desired_spec": {
+        "parentRefs": [
+          {
+            "name": "public-gateway",
+            "namespace": "istio-system",
+            "sectionName": "https-wildcard"
+          }
+        ],
+        "hostnames": [
+          "www.ggang.cloud"
+        ],
+        "rules": [
+          {
+            "matches": [
+              {
+                "path": {
+                  "type": "PathPrefix",
+                  "value": "/"
+                }
+              }
+            ],
+            "backendRefs": [
+              {
+                "name": "web",
+                "port": 8080
+              }
+            ]
+          }
+        ]
+      },
+      "live_spec": {
+        "hostnames": [
+          "www.ggang.cloud"
+        ],
+        "parentRefs": [
+          {
+            "group": "gateway.networking.k8s.io",
+            "kind": "Gateway",
+            "name": "public-gateway",
+            "namespace": "istio-system",
+            "sectionName": "https-wildcard"
+          }
+        ],
+        "rules": [
+          {
+            "backendRefs": [
+              {
+                "group": "",
+                "kind": "Service",
+                "name": "web",
+                "port": 8080,
+                "weight": 1
+              }
+            ],
+            "matches": [
+              {
+                "path": {
+                  "type": "PathPrefix",
+                  "value": "/"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "exact_equal": false,
+      "equal_after_filling_observed_reference_fields": true
+    }
+  ]
+}

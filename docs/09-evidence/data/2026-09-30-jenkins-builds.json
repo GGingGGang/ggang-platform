@@ -1,0 +1,2769 @@
+{
+  "observed_at": "2026-09-30T09:19:04.069312+09:00",
+  "method": "kubectl exec: read existing Jenkins build.xml files; selected fields only",
+  "builds": [
+    {
+      "service": "svc-auth",
+      "number": 1,
+      "result": "UNSTABLE",
+      "timestamp_ms": "1784635777857",
+      "duration_ms": "153450",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-auth.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-auth",
+      "number": 2,
+      "result": "UNSTABLE",
+      "timestamp_ms": "1784638100952",
+      "duration_ms": "187617",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-auth.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-auth",
+      "number": 3,
+      "result": "UNSTABLE",
+      "timestamp_ms": "1784639368495",
+      "duration_ms": "211417",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-auth.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-auth",
+      "number": 4,
+      "result": "UNSTABLE",
+      "timestamp_ms": "1784640026036",
+      "duration_ms": "429056",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-auth.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-auth",
+      "number": 5,
+      "result": "UNSTABLE",
+      "timestamp_ms": "1784646466775",
+      "duration_ms": "168948",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-auth.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-auth",
+      "number": 6,
+      "result": "UNSTABLE",
+      "timestamp_ms": "1784791164114",
+      "duration_ms": "155332",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-auth.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-auth",
+      "number": 7,
+      "result": "SUCCESS",
+      "timestamp_ms": "1784792756678",
+      "duration_ms": "133338",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-auth.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-auth",
+      "number": 8,
+      "result": "SUCCESS",
+      "timestamp_ms": "1784804522061",
+      "duration_ms": "204086",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-auth.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-auth",
+      "number": 9,
+      "result": "ABORTED",
+      "timestamp_ms": "1784883626039",
+      "duration_ms": "8674",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-auth",
+      "number": 10,
+      "result": "FAILURE",
+      "timestamp_ms": "1784884156721",
+      "duration_ms": "95834",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-auth.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-auth",
+      "number": 11,
+      "result": "SUCCESS",
+      "timestamp_ms": "1784885610106",
+      "duration_ms": "316688",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-auth.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-auth",
+      "number": 12,
+      "result": "SUCCESS",
+      "timestamp_ms": "1785411569196",
+      "duration_ms": "245050",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-auth.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-auth",
+      "number": 13,
+      "result": "SUCCESS",
+      "timestamp_ms": "1785413734616",
+      "duration_ms": "206486",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-auth.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-auth",
+      "number": 14,
+      "result": "FAILURE",
+      "timestamp_ms": "1790000141379",
+      "duration_ms": "137288",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-auth.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-auth",
+      "number": 15,
+      "result": "ABORTED",
+      "timestamp_ms": "1790001035022",
+      "duration_ms": "28048",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-auth.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-auth",
+      "number": 16,
+      "result": "SUCCESS",
+      "timestamp_ms": "1790001597304",
+      "duration_ms": "215734",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-auth.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-auth",
+      "number": 17,
+      "result": "SUCCESS",
+      "timestamp_ms": "1790003697409",
+      "duration_ms": "221540",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-auth.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-auth",
+      "number": 18,
+      "result": "FAILURE",
+      "timestamp_ms": "1790173585978",
+      "duration_ms": "263676",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-auth.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-auth",
+      "number": 19,
+      "result": "SUCCESS",
+      "timestamp_ms": "1790176920000",
+      "duration_ms": "238235",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-auth.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-auth",
+      "number": 20,
+      "result": "SUCCESS",
+      "timestamp_ms": "1790226485906",
+      "duration_ms": "243074",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-auth.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-auth",
+      "number": 21,
+      "result": "SUCCESS",
+      "timestamp_ms": "1790241816643",
+      "duration_ms": "317435",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-auth.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-auth",
+      "number": 22,
+      "result": "SUCCESS",
+      "timestamp_ms": "1790248898703",
+      "duration_ms": "222638",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-auth.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-auth",
+      "number": 23,
+      "result": "SUCCESS",
+      "timestamp_ms": "1790309652552",
+      "duration_ms": "303501",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-auth.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-auth",
+      "number": 24,
+      "result": "SUCCESS",
+      "timestamp_ms": "1790310261036",
+      "duration_ms": "699048",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-auth.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-auth",
+      "number": 25,
+      "result": "SUCCESS",
+      "timestamp_ms": "1790313209332",
+      "duration_ms": "220907",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-auth.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-batch",
+      "number": 1,
+      "result": "FAILURE",
+      "timestamp_ms": "1784635777887",
+      "duration_ms": "531003",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-batch.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-batch",
+      "number": 2,
+      "result": "FAILURE",
+      "timestamp_ms": "1784638106741",
+      "duration_ms": "319065",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-batch.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-batch",
+      "number": 3,
+      "result": "UNSTABLE",
+      "timestamp_ms": "1784639739281",
+      "duration_ms": "427294",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-batch.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-batch",
+      "number": 4,
+      "result": "UNSTABLE",
+      "timestamp_ms": "1784640831562",
+      "duration_ms": "478282",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-batch.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-batch",
+      "number": 5,
+      "result": "UNSTABLE",
+      "timestamp_ms": "1784647566303",
+      "duration_ms": "359152",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-batch.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-batch",
+      "number": 6,
+      "result": "FAILURE",
+      "timestamp_ms": "1784788841462",
+      "duration_ms": "134094",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-batch.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-batch",
+      "number": 7,
+      "result": "FAILURE",
+      "timestamp_ms": "1784789067753",
+      "duration_ms": "93770",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-batch.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-batch",
+      "number": 8,
+      "result": "UNSTABLE",
+      "timestamp_ms": "1784790046506",
+      "duration_ms": "349088",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-batch.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-batch",
+      "number": 9,
+      "result": "SUCCESS",
+      "timestamp_ms": "1784791131540",
+      "duration_ms": "469672",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-batch.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-batch",
+      "number": 10,
+      "result": "SUCCESS",
+      "timestamp_ms": "1784804942098",
+      "duration_ms": "391524",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-batch.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-batch",
+      "number": 11,
+      "result": "SUCCESS",
+      "timestamp_ms": "1784885545081",
+      "duration_ms": "530220",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-batch.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-batch",
+      "number": 12,
+      "result": "SUCCESS",
+      "timestamp_ms": "1785413784644",
+      "duration_ms": "718539",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-batch.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-batch",
+      "number": 13,
+      "result": "FAILURE",
+      "timestamp_ms": "1790173585985",
+      "duration_ms": "186221",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-batch.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-batch",
+      "number": 14,
+      "result": "FAILURE",
+      "timestamp_ms": "1790177062897",
+      "duration_ms": "846138",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-batch.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-batch",
+      "number": 15,
+      "result": "FAILURE",
+      "timestamp_ms": "1790247573506",
+      "duration_ms": "617733",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-batch.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-batch",
+      "number": 16,
+      "result": "FAILURE",
+      "timestamp_ms": "1790248243650",
+      "duration_ms": "538924",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-batch.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-batch",
+      "number": 17,
+      "result": "SUCCESS",
+      "timestamp_ms": "1790248783551",
+      "duration_ms": "736904",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-batch.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-batch",
+      "number": 18,
+      "result": "SUCCESS",
+      "timestamp_ms": "1790249748977",
+      "duration_ms": "535108",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-batch.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-batch",
+      "number": 19,
+      "result": "SUCCESS",
+      "timestamp_ms": "1790309988809",
+      "duration_ms": "797860",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-batch.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-batch",
+      "number": 20,
+      "result": "SUCCESS",
+      "timestamp_ms": "1790313209326",
+      "duration_ms": "535673",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-batch.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-batch",
+      "number": 21,
+      "result": "SUCCESS",
+      "timestamp_ms": "1790405038429",
+      "duration_ms": "602276",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-batch.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-batch",
+      "number": 22,
+      "result": "SUCCESS",
+      "timestamp_ms": "1790405641617",
+      "duration_ms": "545679",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-batch.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-batch",
+      "number": 23,
+      "result": "SUCCESS",
+      "timestamp_ms": "1790406188265",
+      "duration_ms": "549656",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-batch.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-core",
+      "number": 1,
+      "result": "FAILURE",
+      "timestamp_ms": "1784635777897",
+      "duration_ms": "343902",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-core.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-core",
+      "number": 2,
+      "result": "FAILURE",
+      "timestamp_ms": "1784638118375",
+      "duration_ms": "342044",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-core.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-core",
+      "number": 3,
+      "result": "UNSTABLE",
+      "timestamp_ms": "1784639731592",
+      "duration_ms": "172587",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-core.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-core",
+      "number": 4,
+      "result": "SUCCESS",
+      "timestamp_ms": "1784639905280",
+      "duration_ms": "359308",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-core.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-core",
+      "number": 5,
+      "result": "SUCCESS",
+      "timestamp_ms": "1784646991883",
+      "duration_ms": "192921",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-core.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-core",
+      "number": 6,
+      "result": "SUCCESS",
+      "timestamp_ms": "1784804667067",
+      "duration_ms": "189942",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-core.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-core",
+      "number": 7,
+      "result": "ABORTED",
+      "timestamp_ms": "1784883628979",
+      "duration_ms": "14053",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-core",
+      "number": 8,
+      "result": "SUCCESS",
+      "timestamp_ms": "1784885390013",
+      "duration_ms": "316881",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-core.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-core",
+      "number": 9,
+      "result": "SUCCESS",
+      "timestamp_ms": "1785411604226",
+      "duration_ms": "269406",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-core.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-core",
+      "number": 10,
+      "result": "SUCCESS",
+      "timestamp_ms": "1785413759640",
+      "duration_ms": "262908",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-core.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-core",
+      "number": 11,
+      "result": "SUCCESS",
+      "timestamp_ms": "1790000232234",
+      "duration_ms": "331208",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-core.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-core",
+      "number": 12,
+      "result": "SUCCESS",
+      "timestamp_ms": "1790003697401",
+      "duration_ms": "272377",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-core.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-core",
+      "number": 13,
+      "result": "FAILURE",
+      "timestamp_ms": "1790092828252",
+      "duration_ms": "134810",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-core.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-core",
+      "number": 14,
+      "result": "SUCCESS",
+      "timestamp_ms": "1790093483280",
+      "duration_ms": "286262",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-core.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-core",
+      "number": 15,
+      "result": "SUCCESS",
+      "timestamp_ms": "1790173585990",
+      "duration_ms": "315139",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-core.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-core",
+      "number": 16,
+      "result": "SUCCESS",
+      "timestamp_ms": "1790176925742",
+      "duration_ms": "284612",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-core.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-core",
+      "number": 17,
+      "result": "SUCCESS",
+      "timestamp_ms": "1790178069019",
+      "duration_ms": "290877",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-core.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-core",
+      "number": 18,
+      "result": "SUCCESS",
+      "timestamp_ms": "1790241831705",
+      "duration_ms": "557096",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-core.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-core",
+      "number": 19,
+      "result": "SUCCESS",
+      "timestamp_ms": "1790249503889",
+      "duration_ms": "385478",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-core.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-core",
+      "number": 20,
+      "result": "SUCCESS",
+      "timestamp_ms": "1790309843703",
+      "duration_ms": "381468",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-core.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-core",
+      "number": 21,
+      "result": "SUCCESS",
+      "timestamp_ms": "1790310226338",
+      "duration_ms": "308773",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-core.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-core",
+      "number": 22,
+      "result": "SUCCESS",
+      "timestamp_ms": "1790310884065",
+      "duration_ms": "363049",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-core.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-core",
+      "number": 23,
+      "result": "SUCCESS",
+      "timestamp_ms": "1790311248168",
+      "duration_ms": "348926",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-core.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-core",
+      "number": 24,
+      "result": "SUCCESS",
+      "timestamp_ms": "1790311598252",
+      "duration_ms": "284241",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-core.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-core",
+      "number": 25,
+      "result": "SUCCESS",
+      "timestamp_ms": "1790313227432",
+      "duration_ms": "512005",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-core.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-core",
+      "number": 26,
+      "result": "SUCCESS",
+      "timestamp_ms": "1790404963362",
+      "duration_ms": "344955",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-core.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-core",
+      "number": 27,
+      "result": "SUCCESS",
+      "timestamp_ms": "1790405309136",
+      "duration_ms": "333672",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-core.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-core",
+      "number": 28,
+      "result": "SUCCESS",
+      "timestamp_ms": "1790405643644",
+      "duration_ms": "374353",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-core.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-core",
+      "number": 29,
+      "result": "SUCCESS",
+      "timestamp_ms": "1790406228861",
+      "duration_ms": "507151",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-core.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-core",
+      "number": 30,
+      "result": "SUCCESS",
+      "timestamp_ms": "1790406737132",
+      "duration_ms": "308869",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-core.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-core",
+      "number": 31,
+      "result": "SUCCESS",
+      "timestamp_ms": "1790407047006",
+      "duration_ms": "263018",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-core.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-notify",
+      "number": 1,
+      "result": "FAILURE",
+      "timestamp_ms": "1789479321269",
+      "duration_ms": "4678",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-notify",
+      "number": 2,
+      "result": "FAILURE",
+      "timestamp_ms": "1789629989912",
+      "duration_ms": "39092",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-notify.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-notify",
+      "number": 3,
+      "result": "FAILURE",
+      "timestamp_ms": "1789630490679",
+      "duration_ms": "118177",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-notify.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-notify",
+      "number": 4,
+      "result": "SUCCESS",
+      "timestamp_ms": "1789631034388",
+      "duration_ms": "162301",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-notify.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-notify",
+      "number": 5,
+      "result": "SUCCESS",
+      "timestamp_ms": "1790248898716",
+      "duration_ms": "409179",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-notify.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-notify",
+      "number": 6,
+      "result": "SUCCESS",
+      "timestamp_ms": "1790310283907",
+      "duration_ms": "659351",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-notify.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-web",
+      "number": 1,
+      "result": "FAILURE",
+      "timestamp_ms": "1789479321284",
+      "duration_ms": "4667",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-web",
+      "number": 2,
+      "result": "SUCCESS",
+      "timestamp_ms": "1789631092307",
+      "duration_ms": "206619",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-web.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-web",
+      "number": 3,
+      "result": "SUCCESS",
+      "timestamp_ms": "1789998407486",
+      "duration_ms": "114476",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-web.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-web",
+      "number": 4,
+      "result": "FAILURE",
+      "timestamp_ms": "1790000137548",
+      "duration_ms": "22646",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-web.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-web",
+      "number": 5,
+      "result": "SUCCESS",
+      "timestamp_ms": "1790000272242",
+      "duration_ms": "133043",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-web.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-web",
+      "number": 6,
+      "result": "SUCCESS",
+      "timestamp_ms": "1790003722407",
+      "duration_ms": "300909",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-web.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-web",
+      "number": 7,
+      "result": "SUCCESS",
+      "timestamp_ms": "1790004272501",
+      "duration_ms": "101343",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-web.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-web",
+      "number": 8,
+      "result": "SUCCESS",
+      "timestamp_ms": "1790008324973",
+      "duration_ms": "154430",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-web.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-web",
+      "number": 9,
+      "result": "SUCCESS",
+      "timestamp_ms": "1790088968121",
+      "duration_ms": "138790",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-web.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-web",
+      "number": 10,
+      "result": "SUCCESS",
+      "timestamp_ms": "1790173585971",
+      "duration_ms": "393581",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-web.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-web",
+      "number": 11,
+      "result": "SUCCESS",
+      "timestamp_ms": "1790177107901",
+      "duration_ms": "224029",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-web.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-web",
+      "number": 12,
+      "result": "SUCCESS",
+      "timestamp_ms": "1790178074192",
+      "duration_ms": "111586",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-web.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-web",
+      "number": 13,
+      "result": "SUCCESS",
+      "timestamp_ms": "1790241822205",
+      "duration_ms": "110440",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-web.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-web",
+      "number": 14,
+      "result": "SUCCESS",
+      "timestamp_ms": "1790249068742",
+      "duration_ms": "447166",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-web.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-web",
+      "number": 15,
+      "result": "SUCCESS",
+      "timestamp_ms": "1790309968805",
+      "duration_ms": "127446",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-web.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-web",
+      "number": 16,
+      "result": "SUCCESS",
+      "timestamp_ms": "1790310378941",
+      "duration_ms": "740754",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-web.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-web",
+      "number": 17,
+      "result": "SUCCESS",
+      "timestamp_ms": "1790311120623",
+      "duration_ms": "111514",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-web.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-web",
+      "number": 18,
+      "result": "SUCCESS",
+      "timestamp_ms": "1790313254344",
+      "duration_ms": "588321",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-web.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-web",
+      "number": 19,
+      "result": "SUCCESS",
+      "timestamp_ms": "1790405708672",
+      "duration_ms": "443723",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-web.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-web",
+      "number": 20,
+      "result": "SUCCESS",
+      "timestamp_ms": "1790406153171",
+      "duration_ms": "131122",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-web.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-web",
+      "number": 21,
+      "result": "SUCCESS",
+      "timestamp_ms": "1790406285137",
+      "duration_ms": "132419",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-web.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    },
+    {
+      "service": "svc-web",
+      "number": 22,
+      "result": "SUCCESS",
+      "timestamp_ms": "1790406959261",
+      "duration_ms": "165548",
+      "git": [
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/jenkins-shared-library.git"
+          ]
+        },
+        {
+          "remote_urls": [
+            "https://github.com/GGingGGang/svc-web.git"
+          ]
+        }
+      ],
+      "libraries": [
+        {
+          "name": "shared",
+          "version": "main",
+          "trusted": "true"
+        }
+      ]
+    }
+  ],
+  "revision_source": "Selected build source and library revisions are preserved in 2026-09-30-jenkins-console.json; build.xml extraction here retains remote URLs and branch names only."
+}

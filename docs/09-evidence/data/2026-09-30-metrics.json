@@ -1,0 +1,969 @@
+{
+  "observed_at": "2026-09-30T09:17:53.897501+09:00",
+  "node_metrics": [
+    {
+      "node": "worker-1",
+      "timestamp": "2026-09-30T00:17:42Z",
+      "window": "10.011s",
+      "usage": {
+        "cpu": "215719644n",
+        "memory": "8389476Ki"
+      }
+    },
+    {
+      "node": "worker-2",
+      "timestamp": "2026-09-30T00:17:49Z",
+      "window": "20.021s",
+      "usage": {
+        "cpu": "171689705n",
+        "memory": "7995628Ki"
+      }
+    }
+  ],
+  "pod_metrics": [
+    {
+      "namespace": "app",
+      "name": "study-6775c57b99-rxtnp",
+      "timestamp": "2026-09-30T00:17:43Z",
+      "window": "16.67s",
+      "containers": [
+        {
+          "name": "git-sync",
+          "usage": {
+            "cpu": "3493248n",
+            "memory": "33828Ki"
+          }
+        },
+        {
+          "name": "nginx",
+          "usage": {
+            "cpu": "51488n",
+            "memory": "4100Ki"
+          }
+        }
+      ]
+    },
+    {
+      "namespace": "auth",
+      "name": "auth-648b789485-fw28v",
+      "timestamp": "2026-09-30T00:17:36Z",
+      "window": "16.263s",
+      "containers": [
+        {
+          "name": "auth",
+          "usage": {
+            "cpu": "1717572n",
+            "memory": "86436Ki"
+          }
+        }
+      ]
+    },
+    {
+      "namespace": "batch",
+      "name": "batch-85dcb4df4-qjr59",
+      "timestamp": "2026-09-30T00:17:49Z",
+      "window": "25.566s",
+      "containers": [
+        {
+          "name": "batch",
+          "usage": {
+            "cpu": "1058277n",
+            "memory": "298236Ki"
+          }
+        }
+      ]
+    },
+    {
+      "namespace": "cert-manager",
+      "name": "cert-manager-848d97ccc7-wl4tq",
+      "timestamp": "2026-09-30T00:17:34Z",
+      "window": "29.122s",
+      "containers": [
+        {
+          "name": "cert-manager-controller",
+          "usage": {
+            "cpu": "383619n",
+            "memory": "49848Ki"
+          }
+        }
+      ]
+    },
+    {
+      "namespace": "cert-manager",
+      "name": "cert-manager-cainjector-7dccbd864b-lbc8d",
+      "timestamp": "2026-09-30T00:17:44Z",
+      "window": "14.221s",
+      "containers": [
+        {
+          "name": "cert-manager-cainjector",
+          "usage": {
+            "cpu": "330598n",
+            "memory": "96424Ki"
+          }
+        }
+      ]
+    },
+    {
+      "namespace": "cert-manager",
+      "name": "cert-manager-webhook-5fb49d68-t7qjh",
+      "timestamp": "2026-09-30T00:17:36Z",
+      "window": "12.7s",
+      "containers": [
+        {
+          "name": "cert-manager-webhook",
+          "usage": {
+            "cpu": "223231n",
+            "memory": "22740Ki"
+          }
+        }
+      ]
+    },
+    {
+      "namespace": "cicd",
+      "name": "argocd-application-controller-0",
+      "timestamp": "2026-09-30T00:17:35Z",
+      "window": "16.612s",
+      "containers": [
+        {
+          "name": "application-controller",
+          "usage": {
+            "cpu": "12786689n",
+            "memory": "949964Ki"
+          }
+        }
+      ]
+    },
+    {
+      "namespace": "cicd",
+      "name": "argocd-applicationset-controller-866cdb68c8-br5p4",
+      "timestamp": "2026-09-30T00:17:39Z",
+      "window": "17.603s",
+      "containers": [
+        {
+          "name": "applicationset-controller",
+          "usage": {
+            "cpu": "246482n",
+            "memory": "50164Ki"
+          }
+        }
+      ]
+    },
+    {
+      "namespace": "cicd",
+      "name": "argocd-redis-7b665dbfb7-kj98l",
+      "timestamp": "2026-09-30T00:17:36Z",
+      "window": "15.248s",
+      "containers": [
+        {
+          "name": "redis",
+          "usage": {
+            "cpu": "4559535n",
+            "memory": "17200Ki"
+          }
+        }
+      ]
+    },
+    {
+      "namespace": "cicd",
+      "name": "argocd-repo-server-66dcd777cb-pvt7x",
+      "timestamp": "2026-09-30T00:17:47Z",
+      "window": "13.984s",
+      "containers": [
+        {
+          "name": "repo-server",
+          "usage": {
+            "cpu": "607806n",
+            "memory": "196220Ki"
+          }
+        }
+      ]
+    },
+    {
+      "namespace": "cicd",
+      "name": "argocd-server-5795b469-8mss5",
+      "timestamp": "2026-09-30T00:17:46Z",
+      "window": "18.291s",
+      "containers": [
+        {
+          "name": "server",
+          "usage": {
+            "cpu": "271541n",
+            "memory": "83284Ki"
+          }
+        }
+      ]
+    },
+    {
+      "namespace": "cicd",
+      "name": "jenkins-0",
+      "timestamp": "2026-09-30T00:17:37Z",
+      "window": "10.24s",
+      "containers": [
+        {
+          "name": "config-reload",
+          "usage": {
+            "cpu": "105993n",
+            "memory": "79404Ki"
+          }
+        },
+        {
+          "name": "jenkins",
+          "usage": {
+            "cpu": "1243992n",
+            "memory": "1078872Ki"
+          }
+        }
+      ]
+    },
+    {
+      "namespace": "core",
+      "name": "core-57654b9fc7-2pfst",
+      "timestamp": "2026-09-30T00:17:44Z",
+      "window": "17.588s",
+      "containers": [
+        {
+          "name": "core",
+          "usage": {
+            "cpu": "718125n",
+            "memory": "20572Ki"
+          }
+        }
+      ]
+    },
+    {
+      "namespace": "data",
+      "name": "nats-0",
+      "timestamp": "2026-09-30T00:17:43Z",
+      "window": "27.908s",
+      "containers": [
+        {
+          "name": "nats",
+          "usage": {
+            "cpu": "1143819n",
+            "memory": "15456Ki"
+          }
+        },
+        {
+          "name": "prom-exporter",
+          "usage": {
+            "cpu": "226290n",
+            "memory": "22116Ki"
+          }
+        },
+        {
+          "name": "reloader",
+          "usage": {
+            "cpu": "695n",
+            "memory": "2744Ki"
+          }
+        }
+      ]
+    },
+    {
+      "namespace": "data",
+      "name": "redis-7bcf986bf8-wpfxm",
+      "timestamp": "2026-09-30T00:17:43Z",
+      "window": "11.45s",
+      "containers": [
+        {
+          "name": "redis",
+          "usage": {
+            "cpu": "5937505n",
+            "memory": "12976Ki"
+          }
+        }
+      ]
+    },
+    {
+      "namespace": "external-dns",
+      "name": "external-dns-5cc5dbbf7c-kvv2q",
+      "timestamp": "2026-09-30T00:17:46Z",
+      "window": "15.953s",
+      "containers": [
+        {
+          "name": "external-dns",
+          "usage": {
+            "cpu": "245586n",
+            "memory": "33372Ki"
+          }
+        }
+      ]
+    },
+    {
+      "namespace": "istio-system",
+      "name": "istio-cni-node-794s2",
+      "timestamp": "2026-09-30T00:17:47Z",
+      "window": "25.77s",
+      "containers": [
+        {
+          "name": "install-cni",
+          "usage": {
+            "cpu": "142967n",
+            "memory": "72332Ki"
+          }
+        }
+      ]
+    },
+    {
+      "namespace": "istio-system",
+      "name": "istio-cni-node-nhbh9",
+      "timestamp": "2026-09-30T00:17:36Z",
+      "window": "13.944s",
+      "containers": [
+        {
+          "name": "install-cni",
+          "usage": {
+            "cpu": "104543n",
+            "memory": "73208Ki"
+          }
+        }
+      ]
+    },
+    {
+      "namespace": "istio-system",
+      "name": "istiod-747b69b476-qz8v9",
+      "timestamp": "2026-09-30T00:17:45Z",
+      "window": "26.464s",
+      "containers": [
+        {
+          "name": "discovery",
+          "usage": {
+            "cpu": "1236748n",
+            "memory": "87132Ki"
+          }
+        }
+      ]
+    },
+    {
+      "namespace": "istio-system",
+      "name": "public-gateway-istio-544ccdb887-r6pz6",
+      "timestamp": "2026-09-30T00:17:45Z",
+      "window": "19.154s",
+      "containers": [
+        {
+          "name": "istio-proxy",
+          "usage": {
+            "cpu": "1354589n",
+            "memory": "84800Ki"
+          }
+        }
+      ]
+    },
+    {
+      "namespace": "istio-system",
+      "name": "ztunnel-f9wk4",
+      "timestamp": "2026-09-30T00:17:32Z",
+      "window": "18.45s",
+      "containers": [
+        {
+          "name": "istio-proxy",
+          "usage": {
+            "cpu": "1731356n",
+            "memory": "26372Ki"
+          }
+        }
+      ]
+    },
+    {
+      "namespace": "istio-system",
+      "name": "ztunnel-xclb5",
+      "timestamp": "2026-09-30T00:17:44Z",
+      "window": "19.709s",
+      "containers": [
+        {
+          "name": "istio-proxy",
+          "usage": {
+            "cpu": "1901281n",
+            "memory": "28508Ki"
+          }
+        }
+      ]
+    },
+    {
+      "namespace": "kube-system",
+      "name": "coredns-6c7fc47cc7-n8986",
+      "timestamp": "2026-09-30T00:17:45Z",
+      "window": "14.809s",
+      "containers": [
+        {
+          "name": "coredns",
+          "usage": {
+            "cpu": "1502183n",
+            "memory": "33944Ki"
+          }
+        }
+      ]
+    },
+    {
+      "namespace": "kube-system",
+      "name": "coredns-6c7fc47cc7-zgdbb",
+      "timestamp": "2026-09-30T00:17:47Z",
+      "window": "14.563s",
+      "containers": [
+        {
+          "name": "coredns",
+          "usage": {
+            "cpu": "1913270n",
+            "memory": "49160Ki"
+          }
+        }
+      ]
+    },
+    {
+      "namespace": "kube-system",
+      "name": "csi-oci-node-7b2n7",
+      "timestamp": "2026-09-30T00:17:37Z",
+      "window": "10.318s",
+      "containers": [
+        {
+          "name": "csi-node-driver",
+          "usage": {
+            "cpu": "263268n",
+            "memory": "22196Ki"
+          }
+        }
+      ]
+    },
+    {
+      "namespace": "kube-system",
+      "name": "csi-oci-node-8kxf8",
+      "timestamp": "2026-09-30T00:17:45Z",
+      "window": "13.099s",
+      "containers": [
+        {
+          "name": "csi-node-driver",
+          "usage": {
+            "cpu": "47478n",
+            "memory": "23464Ki"
+          }
+        }
+      ]
+    },
+    {
+      "namespace": "kube-system",
+      "name": "kube-dns-autoscaler-67b57cd774-vhzc7",
+      "timestamp": "2026-09-30T00:17:47Z",
+      "window": "25.421s",
+      "containers": [
+        {
+          "name": "autoscaler",
+          "usage": {
+            "cpu": "102845n",
+            "memory": "14848Ki"
+          }
+        }
+      ]
+    },
+    {
+      "namespace": "kube-system",
+      "name": "kube-flannel-ds-6k8bx",
+      "timestamp": "2026-09-30T00:17:41Z",
+      "window": "19.379s",
+      "containers": [
+        {
+          "name": "kube-flannel",
+          "usage": {
+            "cpu": "18708529n",
+            "memory": "33776Ki"
+          }
+        }
+      ]
+    },
+    {
+      "namespace": "kube-system",
+      "name": "kube-flannel-ds-r6m4p",
+      "timestamp": "2026-09-30T00:17:36Z",
+      "window": "18.143s",
+      "containers": [
+        {
+          "name": "kube-flannel",
+          "usage": {
+            "cpu": "17310383n",
+            "memory": "25004Ki"
+          }
+        }
+      ]
+    },
+    {
+      "namespace": "kube-system",
+      "name": "kube-proxy-t24lk",
+      "timestamp": "2026-09-30T00:17:33Z",
+      "window": "30.932s",
+      "containers": [
+        {
+          "name": "kube-proxy",
+          "usage": {
+            "cpu": "833525n",
+            "memory": "36512Ki"
+          }
+        }
+      ]
+    },
+    {
+      "namespace": "kube-system",
+      "name": "kube-proxy-v2mf6",
+      "timestamp": "2026-09-30T00:17:32Z",
+      "window": "24.253s",
+      "containers": [
+        {
+          "name": "kube-proxy",
+          "usage": {
+            "cpu": "1139123n",
+            "memory": "46264Ki"
+          }
+        }
+      ]
+    },
+    {
+      "namespace": "kube-system",
+      "name": "metrics-server-6bd45d4944-kxwhq",
+      "timestamp": "2026-09-30T00:17:38Z",
+      "window": "18.691s",
+      "containers": [
+        {
+          "name": "metrics-server",
+          "usage": {
+            "cpu": "2154534n",
+            "memory": "47356Ki"
+          }
+        }
+      ]
+    },
+    {
+      "namespace": "kube-system",
+      "name": "oke-dataplane-observability-agent-hxtxb",
+      "timestamp": "2026-09-30T00:17:32Z",
+      "window": "25.527s",
+      "containers": [
+        {
+          "name": "discovery-agent",
+          "usage": {
+            "cpu": "1118191n",
+            "memory": "47544Ki"
+          }
+        },
+        {
+          "name": "otel",
+          "usage": {
+            "cpu": "542857n",
+            "memory": "202592Ki"
+          }
+        }
+      ]
+    },
+    {
+      "namespace": "kube-system",
+      "name": "oke-dataplane-observability-agent-wvkbm",
+      "timestamp": "2026-09-30T00:17:38Z",
+      "window": "15.619s",
+      "containers": [
+        {
+          "name": "discovery-agent",
+          "usage": {
+            "cpu": "67917n",
+            "memory": "48764Ki"
+          }
+        },
+        {
+          "name": "otel",
+          "usage": {
+            "cpu": "740437n",
+            "memory": "203796Ki"
+          }
+        }
+      ]
+    },
+    {
+      "namespace": "kube-system",
+      "name": "oke-node-problem-detector-64vgr",
+      "timestamp": "2026-09-30T00:17:38Z",
+      "window": "15.422s",
+      "containers": [
+        {
+          "name": "oke-node-problem-detector",
+          "usage": {
+            "cpu": "22134n",
+            "memory": "64480Ki"
+          }
+        }
+      ]
+    },
+    {
+      "namespace": "kube-system",
+      "name": "oke-node-problem-detector-smjrk",
+      "timestamp": "2026-09-30T00:17:40Z",
+      "window": "13.885s",
+      "containers": [
+        {
+          "name": "oke-node-problem-detector",
+          "usage": {
+            "cpu": "1774962n",
+            "memory": "36236Ki"
+          }
+        }
+      ]
+    },
+    {
+      "namespace": "kube-system",
+      "name": "proxymux-client-hsd9r",
+      "timestamp": "2026-09-30T00:17:44Z",
+      "window": "14.814s",
+      "containers": [
+        {
+          "name": "proxymux-client",
+          "usage": {
+            "cpu": "255439n",
+            "memory": "36220Ki"
+          }
+        }
+      ]
+    },
+    {
+      "namespace": "kube-system",
+      "name": "proxymux-client-wsxzs",
+      "timestamp": "2026-09-30T00:17:49Z",
+      "window": "22.263s",
+      "containers": [
+        {
+          "name": "proxymux-client",
+          "usage": {
+            "cpu": "16791n",
+            "memory": "30588Ki"
+          }
+        }
+      ]
+    },
+    {
+      "namespace": "kyverno",
+      "name": "kyverno-admission-controller-5c97dc4b65-vw784",
+      "timestamp": "2026-09-30T00:17:36Z",
+      "window": "18.549s",
+      "containers": [
+        {
+          "name": "kyverno",
+          "usage": {
+            "cpu": "3018914n",
+            "memory": "90764Ki"
+          }
+        }
+      ]
+    },
+    {
+      "namespace": "kyverno",
+      "name": "kyverno-reports-controller-745d74d6fb-9j5jk",
+      "timestamp": "2026-09-30T00:17:45Z",
+      "window": "19.044s",
+      "containers": [
+        {
+          "name": "controller",
+          "usage": {
+            "cpu": "1205316n",
+            "memory": "78712Ki"
+          }
+        }
+      ]
+    },
+    {
+      "namespace": "monitoring",
+      "name": "alertmanager-kps-kube-prometheus-stack-alertmanager-0",
+      "timestamp": "2026-09-30T00:17:33Z",
+      "window": "16.414s",
+      "containers": [
+        {
+          "name": "alertmanager",
+          "usage": {
+            "cpu": "346418n",
+            "memory": "31708Ki"
+          }
+        },
+        {
+          "name": "config-reloader",
+          "usage": {
+            "cpu": "0",
+            "memory": "19664Ki"
+          }
+        }
+      ]
+    },
+    {
+      "namespace": "monitoring",
+      "name": "grafana-85fbbc4fd4-zvtz5",
+      "timestamp": "2026-09-30T00:17:34Z",
+      "window": "17.408s",
+      "containers": [
+        {
+          "name": "grafana-sc-datasources",
+          "usage": {
+            "cpu": "11426n",
+            "memory": "106056Ki"
+          }
+        },
+        {
+          "name": "grafana",
+          "usage": {
+            "cpu": "13763737n",
+            "memory": "213780Ki"
+          }
+        },
+        {
+          "name": "grafana-sc-dashboard",
+          "usage": {
+            "cpu": "8347n",
+            "memory": "108700Ki"
+          }
+        }
+      ]
+    },
+    {
+      "namespace": "monitoring",
+      "name": "kps-kube-prometheus-stack-operator-6d87b66879-fv9b6",
+      "timestamp": "2026-09-30T00:17:31Z",
+      "window": "18.18s",
+      "containers": [
+        {
+          "name": "kube-prometheus-stack",
+          "usage": {
+            "cpu": "617381n",
+            "memory": "64068Ki"
+          }
+        }
+      ]
+    },
+    {
+      "namespace": "monitoring",
+      "name": "kps-kube-state-metrics-54965f5fc4-czjks",
+      "timestamp": "2026-09-30T00:17:38Z",
+      "window": "18.937s",
+      "containers": [
+        {
+          "name": "kube-state-metrics",
+          "usage": {
+            "cpu": "1555257n",
+            "memory": "49404Ki"
+          }
+        }
+      ]
+    },
+    {
+      "namespace": "monitoring",
+      "name": "kps-prometheus-node-exporter-7fsvm",
+      "timestamp": "2026-09-30T00:17:44Z",
+      "window": "11.363s",
+      "containers": [
+        {
+          "name": "node-exporter",
+          "usage": {
+            "cpu": "79848n",
+            "memory": "20032Ki"
+          }
+        }
+      ]
+    },
+    {
+      "namespace": "monitoring",
+      "name": "kps-prometheus-node-exporter-nrjg9",
+      "timestamp": "2026-09-30T00:17:41Z",
+      "window": "13.188s",
+      "containers": [
+        {
+          "name": "node-exporter",
+          "usage": {
+            "cpu": "2510197n",
+            "memory": "27824Ki"
+          }
+        }
+      ]
+    },
+    {
+      "namespace": "monitoring",
+      "name": "prometheus-kps-kube-prometheus-stack-prometheus-0",
+      "timestamp": "2026-09-30T00:17:40Z",
+      "window": "16.635s",
+      "containers": [
+        {
+          "name": "prometheus",
+          "usage": {
+            "cpu": "54452218n",
+            "memory": "427612Ki"
+          }
+        },
+        {
+          "name": "config-reloader",
+          "usage": {
+            "cpu": "302742n",
+            "memory": "25476Ki"
+          }
+        }
+      ]
+    },
+    {
+      "namespace": "notify",
+      "name": "notify-69fc855675-jww2g",
+      "timestamp": "2026-09-30T00:17:48Z",
+      "window": "25.301s",
+      "containers": [
+        {
+          "name": "notify",
+          "usage": {
+            "cpu": "270223n",
+            "memory": "18796Ki"
+          }
+        }
+      ]
+    },
+    {
+      "namespace": "tailscale",
+      "name": "tailscale-router-7d59b4597c-jdfrz",
+      "timestamp": "2026-09-30T00:17:38Z",
+      "window": "15.9s",
+      "containers": [
+        {
+          "name": "tailscale",
+          "usage": {
+            "cpu": "217081n",
+            "memory": "103408Ki"
+          }
+        }
+      ]
+    },
+    {
+      "namespace": "vault",
+      "name": "openbao-0",
+      "timestamp": "2026-09-30T00:17:37Z",
+      "window": "18.731s",
+      "containers": [
+        {
+          "name": "openbao",
+          "usage": {
+            "cpu": "35703800n",
+            "memory": "121720Ki"
+          }
+        }
+      ]
+    },
+    {
+      "namespace": "vault",
+      "name": "openbao-agent-injector-844c65899-z62nk",
+      "timestamp": "2026-09-30T00:17:43Z",
+      "window": "13.227s",
+      "containers": [
+        {
+          "name": "sidecar-injector",
+          "usage": {
+            "cpu": "3467894n",
+            "memory": "55836Ki"
+          }
+        }
+      ]
+    },
+    {
+      "namespace": "web",
+      "name": "web-745dc94954-l55xw",
+      "timestamp": "2026-09-30T00:17:46Z",
+      "window": "15.626s",
+      "containers": [
+        {
+          "name": "web",
+          "usage": {
+            "cpu": "40189n",
+            "memory": "3472Ki"
+          }
+        }
+      ]
+    }
+  ],
+  "stats": [
+    {
+      "node": "worker-1",
+      "memory": {
+        "time": "2026-09-30T00:18:02Z",
+        "availableBytes": 3642814464,
+        "usageBytes": 9904685056,
+        "workingSetBytes": 8593965056,
+        "rssBytes": 6571728896,
+        "pageFaults": 92771014,
+        "majorPageFaults": 672,
+        "psi": {
+          "full": {
+            "total": 0,
+            "avg10": 0,
+            "avg60": 0,
+            "avg300": 0
+          },
+          "some": {
+            "total": 0,
+            "avg10": 0,
+            "avg60": 0,
+            "avg300": 0
+          }
+        }
+      },
+      "cpu": {
+        "time": "2026-09-30T00:18:02Z",
+        "usageNanoCores": 304107456,
+        "usageCoreNanoSeconds": 1921342191564520,
+        "psi": {
+          "full": {
+            "total": 0,
+            "avg10": 0,
+            "avg60": 0,
+            "avg300": 0
+          },
+          "some": {
+            "total": 0,
+            "avg10": 0,
+            "avg60": 0,
+            "avg300": 0
+          }
+        }
+      },
+      "pod_working_set_bytes": 4504133632
+    },
+    {
+      "node": "worker-2",
+      "memory": {
+        "time": "2026-09-30T00:18:09Z",
+        "availableBytes": 4027756544,
+        "usageBytes": 10226003968,
+        "workingSetBytes": 8208957440,
+        "rssBytes": 6389878784,
+        "pageFaults": 149878229,
+        "majorPageFaults": 284,
+        "psi": {
+          "full": {
+            "total": 0,
+            "avg10": 0,
+            "avg60": 0,
+            "avg300": 0
+          },
+          "some": {
+            "total": 0,
+            "avg10": 0,
+            "avg60": 0,
+            "avg300": 0
+          }
+        }
+      },
+      "cpu": {
+        "time": "2026-09-30T00:18:09Z",
+        "usageNanoCores": 196925995,
+        "usageCoreNanoSeconds": 1855243306402040,
+        "psi": {
+          "full": {
+            "total": 0,
+            "avg10": 0,
+            "avg60": 0,
+            "avg300": 0
+          },
+          "some": {
+            "total": 0,
+            "avg10": 0,
+            "avg60": 0,
+            "avg300": 0
+          }
+        }
+      },
+      "pod_working_set_bytes": 1783836672
+    }
+  ]
+}

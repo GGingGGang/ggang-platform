@@ -1,0 +1,127 @@
+{
+  "observed_at": "2026-09-30T09:22:44.055138+09:00",
+  "method": "selected existing Jenkins console lines; no full console retained",
+  "builds": [
+    {
+      "service": "svc-auth",
+      "number": 10,
+      "lines": [
+        "Loading library shared@main",
+        "Checking out Revision f818894b6f7c97dcc95421fedf065ea4c0da0a72 (main)",
+        "[Pipeline] { (Declarative: Checkout SCM)",
+        "Checking out Revision 8001422d32a3cc5f204b1ab81f865416c1381f2c (main)",
+        "[Pipeline] { (Test)",
+        "[Pipeline] { (Build & Push)",
+        "Stage \"Build & Push\" skipped due to earlier failure(s)",
+        "[Pipeline] { (Image Scan)",
+        "Stage \"Image Scan\" skipped due to earlier failure(s)",
+        "[Pipeline] { (Sign)",
+        "Stage \"Sign\" skipped due to earlier failure(s)",
+        "[Pipeline] { (Bump)",
+        "Stage \"Bump\" skipped due to earlier failure(s)",
+        "ERROR: script returned exit code 1",
+        "Finished: FAILURE"
+      ]
+    },
+    {
+      "service": "svc-batch",
+      "number": 13,
+      "lines": [
+        "Loading library shared@main",
+        "Checking out Revision c5c20fe5430352b8699abf03f16b434cec55bdaa (main)",
+        "[Pipeline] { (Declarative: Checkout SCM)",
+        "Checking out Revision b37c3e65511e79ee2a8fc762fb9e23de6bb21ffd (main)",
+        "[Pipeline] { (Test)",
+        "[2026-09-23T14:29:29.913Z] BUILD FAILED in 2m 38s",
+        "[Pipeline] { (Build & Push)",
+        "Stage \"Build & Push\" skipped due to earlier failure(s)",
+        "[Pipeline] { (Image Scan)",
+        "Stage \"Image Scan\" skipped due to earlier failure(s)",
+        "[Pipeline] { (Sign)",
+        "Stage \"Sign\" skipped due to earlier failure(s)",
+        "[Pipeline] { (Bump)",
+        "Stage \"Bump\" skipped due to earlier failure(s)",
+        "ERROR: script returned exit code 1",
+        "Finished: FAILURE"
+      ],
+      "failure_diagnostics": [
+        "[2026-09-23T14:29:29.912Z] /home/jenkins/agent/workspace/services_svc-batch_main/src/test/java/cloud/ggang/app/ScheduleEventConsumerTest.java:40: error: incompatible types: try-with-resources not applicable to variable type",
+        "[2026-09-23T14:29:29.912Z] > Task :compileTestJava FAILED",
+        "[2026-09-23T14:29:29.912Z] * What went wrong:",
+        "[2026-09-23T14:29:29.912Z] Execution failed for task ':compileTestJava'.",
+        "[2026-09-23T14:29:29.913Z]   /home/jenkins/agent/workspace/services_svc-batch_main/src/test/java/cloud/ggang/app/ScheduleEventConsumerTest.java:40: error: incompatible types: try-with-resources not applicable to variable type"
+      ]
+    },
+    {
+      "service": "svc-batch",
+      "number": 23,
+      "lines": [
+        "Loading library shared@main",
+        "Checking out Revision 07682be09bd5a6712602ad3efdb6fec58d6aabc5 (main)",
+        "[Pipeline] { (Declarative: Checkout SCM)",
+        "Checking out Revision 7261ee941376451d58a5a9ea9c916aebab6b1313 (main)",
+        "[Pipeline] { (Test)",
+        "[2026-09-26T07:06:34.683Z] BUILD SUCCESSFUL in 2m 47s",
+        "[Pipeline] { (Build & Push)",
+        "[2026-09-26T07:06:46.055Z] + /kaniko/executor '--context=dir:///home/jenkins/agent/workspace/services_svc-batch_main' '--dockerfile=Dockerfile' '--customPlatform=linux/arm64' '--digest-file=image-digest.txt' '--destination=ghcr.io/ggingggang/svc-batch:7261ee941376451d58a5a9ea9c916aebab6b1313' '--build-arg=GIT_SHA=7261ee941376451d58a5a9ea9c916aebab6b1313' '--cache=true' '--cache-repo=ghcr.io/ggingggang/svc-batch/cache' '--cache-ttl=168h' '--snapshot-mode=redo' --use-new-run '--ignore-path=/busybox' '--ignore-path=/home/jenkins'",
+        "[2026-09-26T07:08:48.241Z] INFO[0122] Pushed ghcr.io/ggingggang/svc-batch/cache@sha256:f841cc9eee0cf196e63f11812f7df2092dd01f226bb3bdd96f867590923fdb8f ",
+        "[2026-09-26T07:09:24.269Z] INFO[0157] Pushed ghcr.io/ggingggang/svc-batch@sha256:b865855c6dc8e8d673eccf64aa26e99c754db8a2f71004cbc61b67ad4b1c6397 ",
+        "[Pipeline] { (Image Scan)",
+        "[Pipeline] { (Sign)",
+        "[2026-09-26T07:12:08.361Z] + cosign sign --yes '--tlog-upload=false' --key /cosign/key/cosign.key ghcr.io/ggingggang/svc-batch@sha256:b865855c6dc8e8d673eccf64aa26e99c754db8a2f71004cbc61b67ad4b1c6397",
+        "[Pipeline] { (Bump)",
+        "[2026-09-26T07:12:13.970Z] [main 7bc463b] ci: bump batch to 7261ee941376451d58a5a9ea9c916aebab6b1313",
+        "[2026-09-26T07:12:15.344Z]  ! [remote rejected] HEAD -> main (cannot lock ref 'refs/heads/main': is at 2c2174697dc7e1b730e38422bb16cc7907db2919 but expected 296f552c703e9021cb01a3082090adea0a003440)",
+        "[2026-09-26T07:12:15.990Z] HEAD is now at 2c21746 ci: bump core to 4ba28032952bdcab3d3a715912ff4b3fb5d2e1b6",
+        "[2026-09-26T07:12:15.990Z] [main f3a5222] ci: bump batch to 7261ee941376451d58a5a9ea9c916aebab6b1313",
+        "[2026-09-26T07:12:17.450Z]    2c21746..f3a5222  HEAD -> main",
+        "Finished: SUCCESS"
+      ]
+    },
+    {
+      "service": "svc-core",
+      "number": 31,
+      "lines": [
+        "Loading library shared@main",
+        "Checking out Revision 07682be09bd5a6712602ad3efdb6fec58d6aabc5 (main)",
+        "[Pipeline] { (Declarative: Checkout SCM)",
+        "Checking out Revision c0b013dc2f1493b90d7a4c808e94054af5974c33 (main)",
+        "[Pipeline] { (Test)",
+        "[Pipeline] { (Build & Push)",
+        "[2026-09-26T07:18:59.214Z] + /kaniko/executor '--context=dir:///home/jenkins/agent/workspace/services_svc-core_main' '--dockerfile=Dockerfile' '--customPlatform=linux/arm64' '--digest-file=image-digest.txt' '--destination=ghcr.io/ggingggang/svc-core:c0b013dc2f1493b90d7a4c808e94054af5974c33' '--build-arg=GIT_SHA=c0b013dc2f1493b90d7a4c808e94054af5974c33' '--cache=true' '--cache-repo=ghcr.io/ggingggang/svc-core/cache' '--cache-ttl=168h' '--snapshot-mode=redo' --use-new-run '--ignore-path=/busybox' '--ignore-path=/home/jenkins'",
+        "[2026-09-26T07:20:40.647Z] INFO[0100] Pushed ghcr.io/ggingggang/svc-core/cache@sha256:daa0dac3057a4df1bd5b4a4c3bfd5153cd717b8eba1103c421b17a23b9672a42 ",
+        "[2026-09-26T07:20:53.470Z] INFO[0113] Pushed ghcr.io/ggingggang/svc-core@sha256:f7134b9cb076f81654d388c2f25528129ce9a30006d226fe6653eaf2e78240ab ",
+        "[Pipeline] { (Image Scan)",
+        "[Pipeline] { (Sign)",
+        "[2026-09-26T07:21:40.167Z] + cosign sign --yes '--tlog-upload=false' --key /cosign/key/cosign.key ghcr.io/ggingggang/svc-core@sha256:f7134b9cb076f81654d388c2f25528129ce9a30006d226fe6653eaf2e78240ab",
+        "[Pipeline] { (Bump)",
+        "[2026-09-26T07:21:47.716Z] [main d5bd49b] ci: bump core to c0b013dc2f1493b90d7a4c808e94054af5974c33",
+        "[2026-09-26T07:21:49.614Z]    0385ad9..d5bd49b  HEAD -> main",
+        "Finished: SUCCESS"
+      ]
+    },
+    {
+      "service": "svc-web",
+      "number": 22,
+      "lines": [
+        "Loading library shared@main",
+        "Checking out Revision 07682be09bd5a6712602ad3efdb6fec58d6aabc5 (main)",
+        "[Pipeline] { (Declarative: Checkout SCM)",
+        "Checking out Revision e67432f388e4bfd1df44cdbf5dfaf600ea8317db (main)",
+        "[Pipeline] { (Test)",
+        "[Pipeline] { (Build & Push)",
+        "[2026-09-26T07:17:22.834Z] + /kaniko/executor '--context=dir:///home/jenkins/agent/workspace/services_svc-web_main' '--dockerfile=Dockerfile' '--customPlatform=linux/arm64' '--digest-file=image-digest.txt' '--destination=ghcr.io/ggingggang/svc-web:e67432f388e4bfd1df44cdbf5dfaf600ea8317db' '--build-arg=GIT_SHA=e67432f388e4bfd1df44cdbf5dfaf600ea8317db' '--cache=true' '--cache-repo=ghcr.io/ggingggang/svc-web/cache' '--cache-ttl=168h' '--snapshot-mode=redo' --use-new-run '--ignore-path=/busybox' '--ignore-path=/home/jenkins'",
+        "[2026-09-26T07:17:41.842Z] INFO[0018] Pushed ghcr.io/ggingggang/svc-web/cache@sha256:5e7285f39e590e8af08c84017e5a1657788e38fe880ff6d56cd509491a731c92 ",
+        "[2026-09-26T07:17:47.950Z] INFO[0025] Pushed ghcr.io/ggingggang/svc-web/cache@sha256:e8bebc7445ad72de22e39b6feda730010d661142d2cb867e0271a4c7fa9c1c5d ",
+        "[2026-09-26T07:17:53.217Z] INFO[0030] Pushed ghcr.io/ggingggang/svc-web@sha256:4d4cb10af89df509e2946c58c7bd0101ecb0cb03ec81bc4289b7befb99f3e6b8 ",
+        "[Pipeline] { (Image Scan)",
+        "[Pipeline] { (Sign)",
+        "[2026-09-26T07:18:40.093Z] + cosign sign --yes '--tlog-upload=false' --key /cosign/key/cosign.key ghcr.io/ggingggang/svc-web@sha256:4d4cb10af89df509e2946c58c7bd0101ecb0cb03ec81bc4289b7befb99f3e6b8",
+        "[Pipeline] { (Bump)",
+        "[2026-09-26T07:18:45.733Z] [main 0385ad9] ci: bump web to e67432f388e4bfd1df44cdbf5dfaf600ea8317db",
+        "[2026-09-26T07:18:47.641Z]    1e66084..0385ad9  HEAD -> main",
+        "Finished: SUCCESS"
+      ]
+    }
+  ]
+}
